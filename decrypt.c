@@ -1,30 +1,9 @@
 #include "header.h"
 
-/*char thread1[16][16] = { "07B65DA31C29F4E8","C16D87A0B235F9E4","A926D31CEF704B85","E7A3B85C102D649F",
-                        "C8B34DA96120E5F7","9173D50A2B4C6E8F","BAC9426013DEF578","4C25A1E78D0F3B69",
-                        "964FAB3280C1D5E7","76C523AB490D1E8F","3654CE71B2A8D9F0","75391DAC48FBE602",
-                        "AB68427E5DF3C109","0162C3B458E9AD7F","A98B73C610F2D4E5","0B3641A579C8D2EF" };
-
-int n,i,j,k,count,decimal;
-char source_filename[20],destination_filename[20],keyword[20];*/
-//FILE *source,*destination;
-
-/*struct datatypes
-{
-    int decimal;
-    int binary[8];
-    char character;
-    char hexadecimal[2][16];
-}data,key;
-*/
-//int k;
-
 extern char thread[16][16];
 extern int n,i,j,k,count,decimal;
 extern FILE *source,*destination;
 extern char source_filename[20],destination_filename[20],keyword[20];
-//extern struct datatypes data,key;
-
 
 void hexadecimal_to_decimal(int a)
 {
